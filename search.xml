@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>2020游戏开发入门-01(学习路径)</title>
+    <url>/2020/05/30/2020%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E5%85%A5%E9%97%A8-01/</url>
+    <content><![CDATA[<p>[TOC]</p>
+<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p>做了一个PC端可联网的吃鸡游戏。技术栈Unity3D+C#+Python 2.7。除语言标准库和Unity3D原生提供组件外，不使用其他任何第三方库和插件。</p>
+<p>记录我刚进入游戏行业完成的第一个比较完整的游戏。公司入职前学习路线的客户端&amp;服务端部分作业。也同时是我2020本科毕业的毕业设计。吐槽下论文改格式太难受了。这个系列博客应该写的比论文更清晰。</p>
+<p>记录下自己的心路历程。</p>
+<h1 id="游戏开发入门记录"><a href="#游戏开发入门记录" class="headerlink" title="游戏开发入门记录"></a>游戏开发入门记录</h1><p>下载Unity3D后发现我2018年就注册过Unity了。现在一点都不记得。当年应该是随手玩了下，就忙其他的去了。。。</p>
+<h2 id="第一部分学语言"><a href="#第一部分学语言" class="headerlink" title="第一部分学语言"></a>第一部分学语言</h2><p>自从开始编程后我基本都在写C++。其他语言能写，但是都不熟。</p>
+<p>C#以前有门课学 winform 编程的。基础有，然后看了看《CLR via C#》</p>
+<p>Python自学。基础有，然后沉淀主要看<a href="https://coding.imooc.com/class/200.html" target="_blank" rel="noopener">Python3高级核心技术97讲</a> 当时第一次看是盗版的。emmmmm。</p>
+<h2 id="然后开始学几何，线性代数，图形学，图形API编程（DirectX）"><a href="#然后开始学几何，线性代数，图形学，图形API编程（DirectX）" class="headerlink" title="然后开始学几何，线性代数，图形学，图形API编程（DirectX）"></a>然后开始学几何，线性代数，图形学，图形API编程（DirectX）</h2><ul>
+<li><p>复习线性代数 ：</p>
+<p>慕课上的 <a href="https://coding.imooc.com/class/260.html" target="_blank" rel="noopener">结合编程学数学 专为程序员设计的线性代数</a> ，油管上搜也可以</p>
+<p>B站或者油管 <a href="https://www.bilibili.com/video/BV1ib411t7YR?from=search&seid=5550816775180713756" target="_blank" rel="noopener">-UP主汉语配音-【<em>线性代数的本质</em>】合集-转载于</a></p>
+</li>
+<li><p>几何：《3D数学基础-图形与游戏开发》</p>
+</li>
+<li><p>图形学：<a href="https://www.bilibili.com/video/BV1Zj411f7S3?from=search&seid=4622402725277118016" target="_blank" rel="noopener">华中科技大学-计算机<em>图形学</em></a></p>
+</li>
+<li><p>图形API：主要是OpenGL和DirectX吧。我学的是DirectX 11。参考书基本就 DirectX 龙书 了。</p>
+<p>视频主要看的是：<a href="https://www.youtube.com/watch?v=gQIG77PfLgo&list=PLcacUGyBsOIBlGyQQWzp6D1Xn6ZENx9Y2" target="_blank" rel="noopener">C++ DirectX 11 Engine Tutorials</a> 油管需要梯子。国内资料比较少。</p>
+</li>
+</ul>
+<p>ps: 没有这部分学习直接上Unity3D也是可以的，但是感觉还是有点不一样的。</p>
+<h2 id="开始学习Unity3D引擎"><a href="#开始学习Unity3D引擎" class="headerlink" title="开始学习Unity3D引擎"></a>开始学习Unity3D引擎</h2><p>我的学习过程</p>
+<p>第一阶段：</p>
+<p>先选一个教程入门。可以看官方文档。也可以找官方教程。不过我的梯子不稳定。。。</p>
+<p><a href="https://www.bilibili.com/video/BV1Hp411o7Jq?from=search&seid=12173199346928335673" target="_blank" rel="noopener">英宝通Unity3D公开课</a> 这个教程比较老。</p>
+<p><a href="https://www.bilibili.com/video/BV18x411X7ds?p=21" target="_blank" rel="noopener">[傅老師/Unity教學] Unity3D基礎入門</a> 我比较推荐看这个</p>
+<p>几个主要的网站。搜索 siki学院，麦子学院，B站。有Unity3D入门字样的都可以看一下。</p>
+<p>学到差不多能自己创建一个场景，放几个物体。写个代码控制下物体移动之类的就差不多了。</p>
+<p>第二阶段：</p>
+<p>我发现我基本操作会了后，想做点啥，又不知道做啥。然后就开始找小游戏的Demo自己做。我的世界，愤怒的小鸟，flappy bird之类的游戏。 </p>
+<p>在B站找 unity siki学院。找几个案例做一做。主要是练手。提高熟练度。</p>
+<p>第三阶段：</p>
+<p>然后我觉得很多地方要单独看一看</p>
+<ul>
+<li><p>UI方面的制作</p>
+<p>总给知道一个大致能看的UI是怎么弄出来的吧</p>
+<p><a href="https://www.bilibili.com/video/BV12g4y1z74J" target="_blank" rel="noopener">【Unity3D教程】uGui进阶(一) 全面提升 (3D界面 分页滚动 无限滚动</a></p>
+<p><a href="https://www.bilibili.com/video/BV18t411s7SX" target="_blank" rel="noopener">【公开课 | Unity进阶 | UGUI】siki老师带你学习Unity官方UGUI</a></p>
+</li>
+<li><p>一方面是我觉得我的场景搭的和鬼一样</p>
+<p>然后就开始学那些，光和影，环境设计，技术美术相关的教程</p>
+<p><a href="https://www.bilibili.com/video/BV1vb411P7R1?from=search&seid=2036713295935395103" target="_blank" rel="noopener"><em>unity灯光与渲染</em></a>  </p>
+<p><a href="https://www.bilibili.com/video/BV1gW411a7br/?spm_id_from=333.788.videocard.11" target="_blank" rel="noopener">傅老師/Unity教學渲染相關知識 - 01 基礎渲染步驟</a> 这个是一个系列要自己在Up视频里面找。</p>
+<p>【这里有个场景设计视频突然找不到了。。。】</p>
+</li>
+<li><p>编程方面大致API要看一遍吧</p>
+<p><a href="http://www.sikiedu.com/course/59" target="_blank" rel="noopener">Unity API常用方法和类详细讲解（基于Unity5.6）</a> SIKI学院的一个总结视频</p>
+</li>
+<li><p>粒子系统</p>
+<p><a href="https://www.bilibili.com/video/BV13Q4y1K7ht?from=search&seid=14034755131077153543" target="_blank" rel="noopener"><em>Unity</em>3d<em>粒子</em>系统专讲</a></p>
+<p><a href="https://www.bilibili.com/video/BV1VJ411M7Fu?from=search&seid=14034755131077153543" target="_blank" rel="noopener"><em>Unity粒子</em>系统入门</a></p>
+<p>【我有找不到那个教程了。。。】反正partical system 面板要过一遍吧。</p>
+</li>
+</ul>
+<p>第四阶段：</p>
+<p><a href="https://www.bilibili.com/video/BV1C441117wU?from=search&seid=4233398977896397554" target="_blank" rel="noopener"><em>Unity</em>的程序基础<em>框架</em>（针对有一定<em>Unity</em>基础的学习者）</a> 这个视频居然开始收费了。。。之前还是免费，现在一百多快。emmmm。其实主要是封装一些基础模块。可以看我的代码。我自己也对挺多东西做了封装的。</p>
+<p>写到最后发现自己看过的东西还挺多的。也没总结出一个很好的学习路径。下一章开始讲我的代码封装的过程吧。</p>
+]]></content>
+      <categories>
+        <category>游戏开发</category>
+      </categories>
+      <tags>
+        <tag>游戏开发</tag>
+        <tag>Unity3D</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2020游戏开发入门-02(概述+客户端框架封装)</title>
+    <url>/2020/05/31/2020%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E5%85%A5%E9%97%A8-02/</url>
+    <content><![CDATA[<p>[TOC]</p>
+<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><h1 id="项目概述"><a href="#项目概述" class="headerlink" title="项目概述"></a>项目概述</h1><ul>
+<li><p>客户端项目地址：<a href="https://github.com/Q1143316492/DTSGameClient" target="_blank" rel="noopener">DTSGameClient</a></p>
+</li>
+<li><p>服务端项目地址：<a href="https://github.com/Q1143316492/DTSGameServer" target="_blank" rel="noopener">DTSGameServer</a></p>
+</li>
+</ul>
+<p>Unity3D + C# +Python 2.7 。服务端框架都是自己写的。啥第三方库都没有。资源文件太大。客户端项目里面是<code>Assest/script</code>文件夹下面的代码。完整项目在里面有个云盘链接。</p>
+<p>在windows下直接打开客户端。如果有python环境（我测试的时候是py 2.7。理论上3也可以只是我没全面测试）也可以跑起来服务端。然后就可以登入进去玩了。</p>
+<p>玩法大概就是登入后在一个匹配房间。点匹配会在服务端的匹配列表里面。人够了就一起丢到一个场景。按吃鸡的规则最后一个活下来的胜利。</p>
+<h1 id="客户端概述"><a href="#客户端概述" class="headerlink" title="客户端概述"></a>客户端概述</h1><p>题外话：</p>
+<p>因为没框架用，所以要自己封装。但是我又不知道Unity3D客户端要封装什么。其实刚开始有一种感觉，按照文档说的在Start(), Update() 里面加代码，感觉可以了，又觉得差了点什么。</p>
+<p>然后我在全网找 Unity3D框架 的视频和文章。感觉一半在讲UI。。。。emmmmm</p>
+<p>当时看了一个视频 <a href="https://v.qq.com/x/page/d016340mkcu.html" target="_blank" rel="noopener">UNITE －<em>Unity</em>项目架构设计与开发管理</a> 前辈大概讲了下Unity开发项目结构的演进。</p>
+<p>然后下面是之前我自己写的总结：</p>
+<blockquote>
+<p>游戏引擎提供的最初始的开发方式是，开发者可以在游戏中的任意物体上挂载脚本。我们把物体的加载，到运行中不停的渲染，到物体的消亡的过程。称之为物体的生命周期。我们可以在每帧调用的Update方法中，编写我们的物体行为，最终构成一个完整的游戏世界。</p>
+</blockquote>
+<blockquote>
+<p>在Unity3D中所有物体被称为GameObject。大多数的引擎都会将GameObject在运行时的引用存储在内存中。用户可以通过引擎所提供的反射机制获得它。在Unity3D中，开发者可以通过引擎提供的Game Object的Find方法根据物体名称或者标记找到它。看似极其方便的功能却有着两个比较明显的缺点。</p>
+</blockquote>
+<blockquote>
+<p>一个是引擎的反射系统很慢。其本质是在运行时对对象用哈希表对其引用做了存储。每次使用的时候都会在这个表查一次。比较的慢。因此通常即使用到它也会在游戏的初始化过程中使用。在游戏的运行时避免多次查找。</p>
+</blockquote>
+<blockquote>
+<p>另一个缺点其实是更致命的。是不利于代码的维护性。以Unity3D为例。引擎希望的开发模式是，开发者重写一个继承自MonoBehaviour 类的子类，重写其生命周期函数。在渲染的各个阶段被调用。一个比较直接的想法是把所有的逻辑都写在脚本的更新方法中。于是乎我们可以想象到一个场景，游戏物体多的时候，他们之间的关系就会变得像蜘蛛网一样。当我们后期需要修改一个业务的时候就有可能造成比较严重的连锁反应。不符合我们软件开发中的业务低耦合原则。</p>
+</blockquote>
+<blockquote>
+<p>其中一个解决思路是在一个空物体上挂在脚本。由这个空物体统筹全局。其他的物体也从这个物体衍生。类似一个主函数的概念。但是逐渐的出于对业务解耦，模块划分的考虑，空物体越来越多，越来越乱。而且物体在跨场景的是否销毁也有可能成为可能的逻辑错误。</p>
+</blockquote>
+<blockquote>
+<p>另一个思路是与单例模式结合。系统首次调用时单例类被构造，而后不随着场景的切换而销毁。通过该模式设计大量管理类。如场景管理类，美术资源管理类，事件订阅发布管理类等。</p>
+</blockquote>
+<p>然后我在客户端项目中建了一个 Engine 文件夹。开发封装。</p>
+<h1 id="客户端框架封装"><a href="#客户端框架封装" class="headerlink" title="客户端框架封装"></a>客户端框架封装</h1><h2 id="单例模式和空物体"><a href="#单例模式和空物体" class="headerlink" title="单例模式和空物体"></a>单例模式和空物体</h2><p>在C#中使用单例模式，我先写一个泛型类。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public class Singleton&lt;T&gt; where T : new()</span><br><span class="line">&#123;</span><br><span class="line">    private static T instance;</span><br><span class="line">    </span><br><span class="line">    public static T Instance</span><br><span class="line">    &#123;</span><br><span class="line">        get</span><br><span class="line">        &#123;</span><br><span class="line">            if (instance &#x3D;&#x3D; null)</span><br><span class="line">            &#123;</span><br><span class="line">                instance &#x3D; new T();</span><br><span class="line">            &#125;</span><br><span class="line">            return instance;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>这样比如我们需要另一个成为单例类。只需要继承这个基类即可</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public class NetworkMgr : Singleton&lt;NetworkMgr&gt;</span><br><span class="line">&#123;</span><br><span class="line">    。。。</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>然后我们就可以在任意需要的地方。调用方法。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">NetworkMgr.Instance.Function()</span><br></pre></td></tr></table></figure>
+
+
+
+<p>另一个方面是空物体。EngineHandler是我放在初始场景的空物体。加载后设置过场景不删除。详情看客户端代码的EngineHandler.cs</p>
+<h2 id="UI模块的封装"><a href="#UI模块的封装" class="headerlink" title="UI模块的封装"></a>UI模块的封装</h2><p>参考资料：</p>
+<p>《Unity3D网络游戏实战(第一版) 》《Unity3D网络游戏实战（第2版）》罗培羽。里面有提到PanelBase, PanelMgr的概念</p>
+<p><a href="https://www.bilibili.com/video/BV1C441117wU?from=search&seid=4233398977896397554" target="_blank" rel="noopener"><em>Unity</em>的程序基础<em>框架</em>（针对有一定<em>Unity</em>基础的学习者）</a>  这个视频我当时学的时候还是免费的。。。</p>
+<p>前端Vue框架以及Mvvm相关博客</p>
+<p>使用的是Unity3D自带的UI。原生的操作方式基本就两种。一种是在可视化面板那边选回调函数。按钮添加点击事件回调。另一种是自己想办法获取对象引用。然后 <code>xxx按钮.Onclick.AddEventListener(()=&gt;{ ... })</code></p>
+<p>显然第一种不好维护。代码多了，在一堆组件里面找函数在哪。噩梦。。。。</p>
+<ul>
+<li>PanelBase</li>
+</ul>
+<p>所以PanelBase的作用。我让每一个面板（登入面板，组成面板）都挂在一个脚本。这个脚本父类是PanelBase。PanelBase父类是 MonoBehavier。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public class PanelBase : MonoBehaviour</span><br><span class="line">   &#123;</span><br><span class="line">       private Dictionary&lt;string, List&lt;UIBehaviour&gt;&gt; controlDict &#x3D; </span><br><span class="line">           new Dictionary&lt;string, List&lt;UIBehaviour&gt;&gt;();</span><br><span class="line"></span><br><span class="line">       void Awake()</span><br><span class="line">       &#123;</span><br><span class="line">           FindChildrenControl&lt;Button&gt;();</span><br><span class="line">           FindChildrenControl&lt;Image&gt;();</span><br><span class="line">           FindChildrenControl&lt;Text&gt;();</span><br><span class="line">           FindChildrenControl&lt;Toggle&gt;();</span><br><span class="line">           FindChildrenControl&lt;Slider&gt;();</span><br><span class="line">           FindChildrenControl&lt;ScrollRect&gt;();</span><br><span class="line">           FindChildrenControl&lt;InputField&gt;();</span><br><span class="line">           FindChildrenControl&lt;Dropdown&gt;();</span><br><span class="line">       &#125;</span><br><span class="line"></span><br><span class="line">       public T GetControl&lt;T&gt;(string name) where T : UIBehaviour</span><br><span class="line">       &#123;</span><br><span class="line">           if (controlDict.ContainsKey(name))</span><br><span class="line">           &#123;</span><br><span class="line">               for (int i &#x3D; 0; i &lt; controlDict[name].Count; i++)</span><br><span class="line">               &#123;</span><br><span class="line">                   if (controlDict[name][i] is T)</span><br><span class="line">                   &#123;</span><br><span class="line">                       return controlDict[name][i] as T;</span><br><span class="line">                   &#125;</span><br><span class="line">               &#125;</span><br><span class="line">           &#125;</span><br><span class="line">           return null;</span><br><span class="line">       &#125;</span><br><span class="line"></span><br><span class="line">       private void FindChildrenControl&lt;T&gt;() where T : UIBehaviour</span><br><span class="line">       &#123;</span><br><span class="line">           T[] controls &#x3D; GetComponentsInChildren&lt;T&gt;();</span><br><span class="line">           for (int i &#x3D; 0; i &lt; controls.Length; i++)</span><br><span class="line">           &#123;</span><br><span class="line">               string name &#x3D; controls[i].gameObject.name;</span><br><span class="line">               if (controlDict.ContainsKey(name))</span><br><span class="line">               &#123;</span><br><span class="line">                   controlDict[name].Add(controls[i]);</span><br><span class="line">               &#125;</span><br><span class="line">               else</span><br><span class="line">               &#123;</span><br><span class="line">                   controlDict.Add(name, new List&lt;UIBehaviour&gt;() &#123; controls[i] &#125;);</span><br><span class="line">               &#125;</span><br><span class="line">           &#125;</span><br><span class="line">       &#125;</span><br></pre></td></tr></table></figure>
+
+<p>所有UI组件（按钮，输入框，图片等等）都是UIBehaviour的子类。在Awake()的时候。扫描下所有的组件。按组件类型归类。</p>
+<p>然后通过组件的名字获取他的引用。（这样也就意味着同一面板下，你想要获得的组件，命名需要是唯一的）</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">InputField username &#x3D; GetControl&lt;InputField&gt;(&quot;username&quot;);</span><br></pre></td></tr></table></figure>
+
+
+
+<ul>
+<li>UIMgr</li>
+</ul>
+<p>我们需要一个UI管理类。控制面板的跳转。显示和隐藏。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public class UIMgr : Singleton&lt;UIMgr&gt; &#123; ... &#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>游戏开发</category>
+      </categories>
+      <tags>
+        <tag>游戏开发</tag>
+        <tag>Unity3D</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/09/27/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>虚幻学习笔记01</title>
+    <url>/2020/10/25/ue-learn/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>游戏开发</category>
+      </categories>
+      <tags>
+        <tag>游戏开发</tag>
+        <tag>UE</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>基于hexo+next的github博客搭建</title>
+    <url>/2020/05/30/hexo-init/</url>
+    <content><![CDATA[<h1 id="使用hexo-github部署博客"><a href="#使用hexo-github部署博客" class="headerlink" title="使用hexo+github部署博客"></a>使用hexo+github部署博客</h1><p>[toc]</p>
+<h1 id="1-0-概述"><a href="#1-0-概述" class="headerlink" title="1.0 概述"></a>1.0 概述</h1><p>毕业后的第一篇博客。把博客从博客园搬到github.io。博客园写markdown也太难受了。。。</p>
+<p>使用hexo把博客部署到github上。</p>
+<h1 id="2-0-本地初步安装"><a href="#2-0-本地初步安装" class="headerlink" title="2.0 本地初步安装"></a>2.0 本地初步安装</h1><ul>
+<li><p>电脑要安装git</p>
+</li>
+<li><p>下载安装node js 环境</p>
+<p>去node js 官网 <a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">https://nodejs.org/en/download/</a> 下载安装包，下一步下一步balabala。。。 </p>
+<p>在终端敲·<code>npm -v</code> 能看到东西，就成功了。</p>
+</li>
+<li><p>配置镜像</p>
+<p>npm是一个包管理工具。由于npm可能会到国外下载东西。网速会比较慢。所以一般会配置一个镜像。</p>
+<p>安装cnpm，在终端敲以下命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
+
+<p>然后敲<code>cnpm -v</code>可以看到东西就成功了。cnpm和npm用法差不多。只是cnpm会走国内的源</p>
+</li>
+<li><p>简单安装hexo</p>
+<p>我们来到hexo官网。<a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">https://hexo.io/zh-cn/</a> 。首页就有教你怎么配置。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">hexo init blog</span><br><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line">npm install</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+
+<p>注意把npm换成cnpm。其他不变。我们安装hexo脚手架。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cnpm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
+<ul>
+<li><p>使用<code>hexo init cwl_blog</code>会创建一个blog的博客目录。我在这一步下载有点卡o(︶︿︶)o </p>
+</li>
+<li><p><code>cd cwl_blog</code>  目录结构是这样的。博客根目录。</p>
+<figure class="highlight groovy"><table><tr><td class="code"><pre><span class="line">admin<span class="meta">@DESKTOP</span>-LB2NRTM MINGW64 <span class="regexp">/g/</span><span class="number">0.</span>workspace<span class="regexp">/blog/</span>cwl_blog</span><br><span class="line">$ ls</span><br><span class="line">_config.yml    <span class="keyword">package</span>.json       scaffolds<span class="regexp">/  themes/</span></span><br><span class="line">node_modules<span class="regexp">/  package-lock.json  source/</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p><code>cnpm install</code> 我也不知道这东西安装了啥。。。</p>
+</li>
+<li><p><code>hexo server</code> 部署。然后回提示</p>
+<figure class="highlight pgsql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">admin</span>@DESKTOP-LB2NRTM MINGW64 /g/<span class="number">0.</span>workspace/blog/cwl_blog</span><br><span class="line">$ hexo <span class="keyword">server</span></span><br><span class="line"><span class="keyword">INFO</span>  <span class="keyword">Start</span> processing</span><br><span class="line"><span class="keyword">INFO</span>  Hexo <span class="keyword">is</span> running at http://localhost:<span class="number">4000</span> . Press Ctrl+C <span class="keyword">to</span> stop.</span><br></pre></td></tr></table></figure>
+
+<p>服务就已经起来了。在浏览器敲 <code>http://localhost:4000/</code>就能访问了。</p>
+</li>
+</ul>
+<h1 id="3-0-博客样式"><a href="#3-0-博客样式" class="headerlink" title="3.0 博客样式"></a>3.0 博客样式</h1><p>我选next这个模板。懒+菜，写不出好看的模板</p>
+<ul>
+<li>下载主题</li>
+</ul>
+<p><a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">https://github.com/iissnan/hexo-theme-next</a></p>
+<p>根目录下面有themes文件夹放主题。下一级的每个文件夹是一个主题。把相关主题copy到下面即可。</p>
+<p>在github说明下。第一步命令是在themes目录下创建next文件夹放文件。</p>
+<p>第二个命令是下载命令。瞟了一眼里面的<code>themes/next</code>是下载到哪里。注意敲<code>curl</code>的位置。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mkdir themes/next</span><br><span class="line">curl -s https://api.github.com/repos/iissnan/hexo-theme-next/releases/latest | grep tarball_url | cut -d <span class="string">'"'</span> -f 4 | wget -i - -O- | tar -zx -C themes/next --strip-components=1</span><br></pre></td></tr></table></figure>
+
+
+
+<p>but，我的windows都没有curl这个东西。我就直接在next文件夹下面 git clone 了。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next.git</span><br></pre></td></tr></table></figure>
+
+
+
+<p>clone 后目录里面的东西如下</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">admin@DESKTOP-LB2NRTM MINGW64 /g/0.workspace/blog/cwl_blog/themes/next</span><br><span class="line">$ ls</span><br><span class="line">_config.yml      hexo-theme-next-master.zip  LICENSE       README.md  <span class="built_in">test</span>/</span><br><span class="line">bower.json       languages/                  package.json  scripts/</span><br><span class="line">gulpfile.coffee  layout/                     README.cn.md  <span class="built_in">source</span>/</span><br></pre></td></tr></table></figure>
+
+
+
+<ul>
+<li>配置主题</li>
+</ul>
+<p>在根目录下 <code>_config.yml</code>文件打开</p>
+<p>找到<code>theme</code>那一行。修改成对应的名字。注意冒号后的空格</p>
+<figure class="highlight clean"><table><tr><td class="code"><pre><span class="line"># Extensions</span><br><span class="line">## Plugins: https:<span class="comment">//hexo.io/plugins/</span></span><br><span class="line">## Themes: https:<span class="comment">//hexo.io/themes/</span></span><br><span class="line">theme: next</span><br></pre></td></tr></table></figure>
+
+<p>重新部署在本地看下效果</p>
+<figure class="highlight properties"><table><tr><td class="code"><pre><span class="line"><span class="attr">hexo</span> <span class="string">clean</span></span><br><span class="line"><span class="attr">hexo</span> <span class="string">g</span></span><br><span class="line"><span class="attr">hexo</span> <span class="string">s</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="4-0-部署到github-io"><a href="#4-0-部署到github-io" class="headerlink" title="4.0 部署到github.io"></a>4.0 部署到github.io</h1><ul>
+<li><p>首先有个github仓库</p>
+</li>
+<li><p>创建一个仓库，比如我的是<code>Q1143316492.github.io</code>。换成<code>你的github名字.github.io</code></p>
+</li>
+<li><p>回到我们博客根目录下。装个部署插件。</p>
+</li>
+</ul>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line">cnpm <span class="keyword">install</span> <span class="comment">--save hexo-deployer-git</span></span><br></pre></td></tr></table></figure>
+
+<p>安装后</p>
+<figure class="highlight angelscript"><table><tr><td class="code"><pre><span class="line"><span class="symbol">admin@</span>DESKTOP-LB2NRTM MINGW64 /g/<span class="number">0.</span>workspace/blog/cwl_blog</span><br><span class="line">$ cnpm install --save hexo-deployer-git</span><br><span class="line">platform unsupported hexo-deployer-<span class="symbol">git@</span><span class="number">2.1</span><span class="number">.0</span> › hexo-<span class="symbol">fs@</span><span class="number">2.0</span><span class="number">.1</span> › <span class="symbol">chokidar@</span><span class="number">3.4</span><span class="number">.0</span> › <span class="symbol">fsevents@</span>~<span class="number">2.1</span><span class="number">.2</span> Package require os(darwin) <span class="keyword">not</span> compatible with your platform(win32)</span><br><span class="line">[<span class="symbol">fsevents@</span>~<span class="number">2.1</span><span class="number">.2</span>] optional install error: Package require os(darwin) <span class="keyword">not</span> compatible with your platform(win32)</span><br><span class="line">√ Installed <span class="number">1</span> packages</span><br><span class="line">√ Linked <span class="number">78</span> latest versions</span><br><span class="line">√ Run <span class="number">0</span> scripts</span><br><span class="line">Recently updated (since <span class="number">2020</span><span class="number">-05</span><span class="number">-22</span>): <span class="number">2</span> packages (detail see file G:\<span class="number">0.</span>workspace\blog\cwl_blog\node_modules\.recently_updates.txt)</span><br><span class="line">  Today:</span><br><span class="line">    → hexo-deployer-<span class="symbol">git@</span><span class="number">2.1</span><span class="number">.0</span> › hexo-<span class="symbol">util@</span><span class="number">1.9</span><span class="number">.1</span> › strip-<span class="symbol">indent@</span><span class="number">3.0</span><span class="number">.0</span> › min-<span class="symbol">indent@</span>^<span class="number">1.0</span><span class="number">.0</span>(<span class="number">1.0</span><span class="number">.1</span>) (<span class="number">03</span>:<span class="number">20</span>:<span class="number">06</span>)</span><br><span class="line">√ All packages installed (<span class="number">80</span> packages installed <span class="keyword">from</span> npm registry, used <span class="number">12</span>s(network <span class="number">12</span>s), speed <span class="number">222.78</span>kB/s, json <span class="number">79</span>(<span class="number">195.52</span>kB), tarball <span class="number">2.52</span>MB)</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>配置一下，又到了根目录的 <code>_config.yml</code>里面</li>
+</ul>
+<p>最下面原来是这样的</p>
+<figure class="highlight clean"><table><tr><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## Docs: https:<span class="comment">//hexo.io/docs/deployment.html</span></span><br><span class="line">deploy:</span><br><span class="line">  type: <span class="string">''</span></span><br></pre></td></tr></table></figure>
+
+<p>配置后。注意冒号后面的空格</p>
+<figure class="highlight dts"><table><tr><td class="code"><pre><span class="line"><span class="meta"># Deployment</span></span><br><span class="line"><span class="meta">## Docs: https:<span class="comment">//hexo.io/docs/deployment.html</span></span></span><br><span class="line"><span class="symbol">deploy:</span></span><br><span class="line"><span class="symbol">  type:</span> git</span><br><span class="line"><span class="symbol">  repo:</span> https:<span class="comment">//github.com/Q1143316492/Q1143316492.github.io.git</span></span><br><span class="line"><span class="symbol">  branch:</span> master</span><br></pre></td></tr></table></figure>
+
+<p>写完保存。在终端中D的意思是Deployment</p>
+<figure class="highlight properties"><table><tr><td class="code"><pre><span class="line"><span class="attr">hexo</span> <span class="string">clean</span></span><br><span class="line"><span class="attr">hexo</span> <span class="string">g</span></span><br><span class="line"><span class="attr">hexo</span> <span class="string">d</span></span><br></pre></td></tr></table></figure>
+
+<p>然后就可以在公网</p>
+<p><code>https://Q1143316492.github.io/</code>访问了。这里的Q1143316492是你的github名。</p>
+<h1 id="5-0-页面进一步配置"><a href="#5-0-页面进一步配置" class="headerlink" title="5.0 页面进一步配置"></a>5.0 页面进一步配置</h1><p>next主题的官方手册</p>
+<p><a href="http://theme-next.iissnan.com/getting-started.html#select-language" target="_blank" rel="noopener">http://theme-next.iissnan.com/getting-started.html#select-language</a></p>
+<p>bilibili的某教程</p>
+<p><a href="https://www.bilibili.com/video/BV16W411t7mq?p=20" target="_blank" rel="noopener">https://www.bilibili.com/video/BV16W411t7mq?p=20</a></p>
+<p>基本就是按着开始文档弄一遍。需要注意的是<code>_config.yml</code>文件里面的空格问题</p>
+<p>在配置menu的时候。<code>Key: /link/ || icon</code>这个 || 前面加了个空格就连接不过去了</p>
+<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line"><span class="comment"># When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash from link value (/archives -&gt; archives).</span></span><br><span class="line"><span class="comment"># Usage: `Key: /link/ || icon`</span></span><br><span class="line"><span class="comment"># Key is the name of menu item. If translate for this menu will find in languages - this translate will be loaded; if not - Key name will be used. Key is case-senstive.</span></span><br><span class="line"><span class="comment"># Value before `||` delimeter is the target link.</span></span><br><span class="line"><span class="comment"># Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.</span></span><br><span class="line">menu:</span><br><span class="line">  home: /|| home</span><br><span class="line">  about: /about/|| user</span><br><span class="line">  tags: /tags/|| tags</span><br><span class="line">  categories: /categories|| th</span><br><span class="line">  archives: /archives/|| archive</span><br><span class="line">  # schedule: /schedule/ || calendar</span><br><span class="line">  # sitemap: /sitemap.xml || sitemap</span><br><span class="line">  # commonweal: /404/ || heartbeat</span><br></pre></td></tr></table></figure>
+
+
+
+<p>要不是我认得 %20 是 URL 序列化的东西，翻译过来是空格。直接弃坑了。。。</p>
+<p>其中几个部分比较有意思的部分</p>
+<ul>
+<li><p>无后端的评论功能配置。基于valine</p>
+<p><a href="https://valine.js.org/quickstart.html" target="_blank" rel="noopener">https://valine.js.org/quickstart.html</a></p>
+<p>注册登入后，进入控制台。创建应用</p>
+<p>找设置里面的应用keys。里面有app id 和 app key。粘到next里面的。注意enable默认是false来着</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">valine:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">appid:</span> <span class="comment"># your leancloud application appid</span></span><br><span class="line">  <span class="attr">appkey:</span> <span class="comment"># your leancloud application appkey</span></span><br></pre></td></tr></table></figure>
+
+<p>评论内容修改要到 leancloud存储里面手动删数据了。</p>
+</li>
+</ul>
+<ul>
+<li>搜索功能</li>
+</ul>
+<p>1, 安装插件，在根目录敲命令</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line">cnpm <span class="keyword">install</span> hexo-generator-searchdb <span class="comment">--save</span></span><br></pre></td></tr></table></figure>
+
+<p>2, 在更目录 _config.yml 任意地方加代码</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
+
+<p>3, 在 next主题下的_config.yml。修改</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Local search</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+<h1 id="6-0-写博客"><a href="#6-0-写博客" class="headerlink" title="6.0 写博客"></a>6.0 写博客</h1><p>在博客根目录下 <code>source/_posts</code> 是放博客的地方。到该目录敲<code>hexo n 文章名</code></p>
+<p>注意下面tags和categories会影响博客的标签功能</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">基于hexo+next的github博客搭建</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2020</span><span class="number">-05</span><span class="number">-30</span> <span class="number">14</span><span class="string">:47:14</span></span><br><span class="line"><span class="attr">tags:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">hexo</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">博客搭建</span></span><br><span class="line"><span class="attr">categories:</span> <span class="string">工具</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h1 id="7-0-命令速记"><a href="#7-0-命令速记" class="headerlink" title="7.0 命令速记"></a>7.0 命令速记</h1><p>在source/_post目录下</p>
+<p>新建文章</p>
+<figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo n</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p>本地查看</p>
+<figure class="highlight properties"><table><tr><td class="code"><pre><span class="line"><span class="attr">hexo</span> <span class="string">clean</span></span><br><span class="line"><span class="attr">hexo</span> <span class="string">g</span></span><br><span class="line"><span class="attr">hexo</span> <span class="string">s</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p>远程部署</p>
+<figure class="highlight properties"><table><tr><td class="code"><pre><span class="line"><span class="attr">hexo</span> <span class="string">clean</span></span><br><span class="line"><span class="attr">hexo</span> <span class="string">g</span></span><br><span class="line"><span class="attr">hexo</span> <span class="string">d</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>博客搭建</tag>
+      </tags>
+  </entry>
+</search>
